@@ -18,7 +18,8 @@ struct ContentView: View {
             Text("I typed this on Github. Does it sync?")
                 .foregroundColor(Color.red)
             Text("just adding things to test")
-            Text("test for lauren!")
+            
+            Text("this test is for Lauren")
         }
         .padding()
     }

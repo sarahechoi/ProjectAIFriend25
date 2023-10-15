@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("This is Sarah!")
+            Text("I typed this on Github. Does it sync?")
                 .foregroundColor(Color.red)
             Text("just adding things to test")
         }

@@ -11,6 +11,7 @@
 		998F1F8E2ADC6670004F8F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F1F8D2ADC6670004F8F0E /* ContentView.swift */; };
 		998F1F902ADC6671004F8F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F1F8F2ADC6671004F8F0E /* Assets.xcassets */; };
 		998F1F932ADC6671004F8F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F1F922ADC6671004F8F0E /* Preview Assets.xcassets */; };
+		A62024032B0FD478002BCC6C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62024022B0FD478002BCC6C /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		998F1F8D2ADC6670004F8F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		998F1F8F2ADC6671004F8F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998F1F922ADC6671004F8F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A62024022B0FD478002BCC6C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */,
 				998F1F8D2ADC6670004F8F0E /* ContentView.swift */,
+				A62024022B0FD478002BCC6C /* Storyboard.storyboard */,
 				998F1F8F2ADC6671004F8F0E /* Assets.xcassets */,
 				998F1F912ADC6671004F8F0E /* Preview Content */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				998F1F932ADC6671004F8F0E /* Preview Assets.xcassets in Resources */,
 				998F1F902ADC6671004F8F0E /* Assets.xcassets in Resources */,
+				A62024032B0FD478002BCC6C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

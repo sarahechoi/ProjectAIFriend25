@@ -9,6 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        ZStack {
+            Color(.darkGray)
+                .ignoresSafeArea()
+        }
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)

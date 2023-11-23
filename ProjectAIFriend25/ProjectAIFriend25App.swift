@@ -10,8 +10,7 @@ import FirebaseCore
 
 @main
 struct ProjectAIFriend25App: App {
-    
-    func application(_ application : UIApplication)
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
@@ -20,5 +19,11 @@ struct ProjectAIFriend25App: App {
     }
 }
 
-// hi sarah can u see this
+class AppDelegate : NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions : [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+    
+}
 

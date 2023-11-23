@@ -16,6 +16,10 @@ struct ContentView: View {
         }
         
         VStack {
+        
+            Button("Login"){
+                ///
+            }
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)

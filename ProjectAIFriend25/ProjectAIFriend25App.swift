@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct ProjectAIFriend25App: App {
+    
+    func application(_ application : UIApplication)
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

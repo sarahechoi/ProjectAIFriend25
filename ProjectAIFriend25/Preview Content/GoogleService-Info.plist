@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC_R1BwkKcZMzMV3-MusCleEbc9BGaOU3E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>70188227708</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.SR.ProjectAIFriend25</string>
+	<key>PROJECT_ID</key>
+	<string>projectaifriend25</string>
+	<key>STORAGE_BUCKET</key>
+	<string>projectaifriend25.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:70188227708:ios:890c59f7f9142b2dbafdf9</string>
+</dict>
+</plist>

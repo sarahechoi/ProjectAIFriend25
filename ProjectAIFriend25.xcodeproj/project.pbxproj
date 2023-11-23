@@ -12,6 +12,7 @@
 		998F1F902ADC6671004F8F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F1F8F2ADC6671004F8F0E /* Assets.xcassets */; };
 		998F1F932ADC6671004F8F0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F1F922ADC6671004F8F0E /* Preview Assets.xcassets */; };
 		A62024032B0FD478002BCC6C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62024022B0FD478002BCC6C /* Storyboard.storyboard */; };
+		A62024052B0FD5C6002BCC6C /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62024042B0FD5C6002BCC6C /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		998F1F8F2ADC6671004F8F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998F1F922ADC6671004F8F0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A62024022B0FD478002BCC6C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A62024042B0FD5C6002BCC6C /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */,
 				998F1F8D2ADC6670004F8F0E /* ContentView.swift */,
 				A62024022B0FD478002BCC6C /* Storyboard.storyboard */,
+				A62024042B0FD5C6002BCC6C /* View.xib */,
 				998F1F8F2ADC6671004F8F0E /* Assets.xcassets */,
 				998F1F912ADC6671004F8F0E /* Preview Content */,
 			);
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62024052B0FD5C6002BCC6C /* View.xib in Resources */,
 				998F1F932ADC6671004F8F0E /* Preview Assets.xcassets in Resources */,
 				998F1F902ADC6671004F8F0E /* Assets.xcassets in Resources */,
 				A62024032B0FD478002BCC6C /* Storyboard.storyboard in Resources */,

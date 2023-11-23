@@ -21,13 +21,6 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("This is Sarah!")
-            Text("I typed this on Github. Does it sync?")
-                .foregroundColor(Color.red)
-            Text("just adding things to test")
-            Text("can you see this sarah??")
-            
-            Text("this test is for Lauren")
-            Text("this test is for Sarah")
             Text("edit 11/23/23 for Lauren")
         }
         .padding()

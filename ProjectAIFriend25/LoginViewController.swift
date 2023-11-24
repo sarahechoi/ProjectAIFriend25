@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
         guard let password = PasswordTextField.text else { return }
         
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in
-            if let error = error {
+            if let e = error {
                 print("error")
             }
             else {

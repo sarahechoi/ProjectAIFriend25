@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		995792FD2B103A0200F2FF42 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995792FC2B103A0200F2FF42 /* FirstPageViewController.swift */; };
+		995793042B10822800F2FF42 /* ViewMainStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995793032B10822800F2FF42 /* ViewMainStoryboard.swift */; };
 		998F1F8C2ADC6670004F8F0E /* ProjectAIFriend25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */; };
 		998F1F8E2ADC6670004F8F0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998F1F8D2ADC6670004F8F0E /* ContentView.swift */; };
 		998F1F902ADC6671004F8F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998F1F8F2ADC6671004F8F0E /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		992221ED2B102FDF00FBDFE2 /* mend.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mend.sh; sourceTree = "<group>"; };
 		995792FC2B103A0200F2FF42 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		995793032B10822800F2FF42 /* ViewMainStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMainStoryboard.swift; sourceTree = "<group>"; };
 		998F1F882ADC6670004F8F0E /* ProjectAIFriend25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAIFriend25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAIFriend25App.swift; sourceTree = "<group>"; };
 		998F1F8D2ADC6670004F8F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				998F1F8D2ADC6670004F8F0E /* ContentView.swift */,
 				998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */,
 				A62024022B0FD478002BCC6C /* Main.storyboard */,
+				995793032B10822800F2FF42 /* ViewMainStoryboard.swift */,
 				995792FC2B103A0200F2FF42 /* FirstPageViewController.swift */,
 				A62024082B0FF433002BCC6C /* LoginViewController.swift */,
 				A620240A2B0FF539002BCC6C /* CreatAccountViewController.swift */,
@@ -255,6 +258,7 @@
 			files = (
 				A62024092B0FF433002BCC6C /* LoginViewController.swift in Sources */,
 				A620240B2B0FF539002BCC6C /* CreatAccountViewController.swift in Sources */,
+				995793042B10822800F2FF42 /* ViewMainStoryboard.swift in Sources */,
 				995792FD2B103A0200F2FF42 /* FirstPageViewController.swift in Sources */,
 				998F1F8E2ADC6670004F8F0E /* ContentView.swift in Sources */,
 				998F1F8C2ADC6670004F8F0E /* ProjectAIFriend25App.swift in Sources */,

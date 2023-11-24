@@ -15,25 +15,26 @@ struct ContentView: View {
             .imageScale(.large)
             .foregroundStyle(.tint)
         Text("Hello, world!")
-        
-        storyboardview().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
+//        storyboardview().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+//    }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-        
-    }
-}
 
-struct storyboardview: UIViewControllerRepresentable{
-    func makeUIViewController(context: Context) -> UIViewController{
-        let storyboard = UIStoryboard(name:"Main", bundle: Bundle.main)
-        let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
-        return controller
-    }
-    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//        
+//    }
+//}
+//
+//struct storyboardview: UIViewControllerRepresentable{
+//    func makeUIViewController(context: Context) -> UIViewController{
+//        let storyboard = UIStoryboard(name:"Storyboard", bundle: Bundle.main)
+//        let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
+//        return controller
+//    }
+//    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+//        
+//    }
+

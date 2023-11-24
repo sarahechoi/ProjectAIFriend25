@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88A-kK-q3v">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88A-kK-q3v" userLabel="Email">
                                 <rect key="frame" x="125" y="292" width="142" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="2036" y="-94"/>
         </scene>
-        <!--Create Account View Controller-->
+        <!--Creat Account View Controller-->
         <scene sceneID="F5Z-pH-ER9">
             <objects>
-                <viewController storyboardIdentifier="CreateAccountViewController" id="NDL-eq-t0b" customClass="CreateAccountViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAccountViewController" id="NDL-eq-t0b" customClass="CreatAccountViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="ham-XZ-7IC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -11,7 +11,7 @@ import SwiftUI
 class FirstPageViewController: UIViewController {
 
     @IBOutlet weak var btnLogin : UIButton!
-    @IBOutlet weak var btnCreate_Account : UIButton!
+    @IBOutlet weak var btnCreateAccount : UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +22,9 @@ class FirstPageViewController: UIViewController {
             
         }
     }
-    @IBAction func CreateAccountBtnAction(_sender : UIButton){
-        if let nextVC = storyboard?.instantiateViewController(withIdentifier:"CreateAccountViewController")      as? CreateAccountViewController{
-            present (nextVC, animated: true)
+    @IBAction func CreatAccountBtnAction(_sender : UIButton){
+        if let next1VC = storyboard?.instantiateViewController(withIdentifier:"CreatAccountViewController") as? CreatAccountViewController{
+            navigationController?.pushViewController(next1VC, animated: true)
         }
     }
     }

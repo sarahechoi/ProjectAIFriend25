@@ -16,14 +16,14 @@ class FirstPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func LoginBtnAction(_ sender : UIButton){
+    @IBAction func Login1BtnAction(_ sender : UIButton){
         if let nextVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController{
-            navigationController?.LoginViewController(nextVC, animated:true)
+            navigationController?.pushViewController(nextVC, animated:true)
             
         }
     }
-    @IBAction func Create_AccountBtnAction(_sender : UIButton){
-        if let nextVC = storyboard?.instantiateViewController(withIdentifier: "CreateAccountViewController")as? CreateAccountViewController{
+    @IBAction func CreateAccountBtnAction(_sender : UIButton){
+        if let nextVC = storyboard?.instantiateViewController(withIdentifier:"CreateAccountViewController")      as? CreateAccountViewController{
             present (nextVC, animated: true)
         }
     }

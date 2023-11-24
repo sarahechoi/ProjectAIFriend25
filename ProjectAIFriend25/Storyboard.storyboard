@@ -59,6 +59,14 @@
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="bp5-wd-t83">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wrb-pp-yAr">
+                                <rect key="frame" x="159" y="368" width="98" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Start Test"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lXG-t4-pd3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -130,7 +138,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Nw3-8l-jVh" kind="show" id="yJs-Be-BAa"/>
+                        <segue destination="Nw3-8l-jVh" kind="show" identifier="StoryBoardNavigationController" id="yJs-Be-BAa"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndB-0q-5kZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -46,6 +46,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="IyF-ME-zcx"/>
                     <connections>
+                        <outlet property="EmailTextField" destination="88A-kK-q3v" id="uf4-A5-Dd8"/>
+                        <outlet property="PasswordTextField" destination="URE-WC-Io1" id="H58-VP-AjM"/>
+                        <outlet property="btnLogin" destination="eB8-Ro-Pmx" id="SAb-VK-X4P"/>
                         <outlet property="emailTextField" destination="88A-kK-q3v" id="k53-bE-nxF"/>
                         <outlet property="passwordTextField" destination="URE-WC-Io1" id="Z3F-jJ-CLN"/>
                         <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext" id="WU9-DH-09y"/>
@@ -120,10 +123,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="BsB-OJ-epE"/>
                     <connections>
-                        <outlet property="ConfirmPWTextField" destination="PHY-En-xBf" id="pqJ-9f-QpF"/>
+                        <outlet property="ConfirmPWTextField" destination="PHY-En-xBf" id="H8v-Pc-lLJ"/>
                         <outlet property="ConfirmPasswordTextField" destination="PHY-En-xBf" id="v3h-V8-Rrc"/>
-                        <outlet property="EmailTextField" destination="e49-RQ-t4d" id="aSJ-Hz-vl3"/>
-                        <outlet property="PasswordTextField" destination="7s9-Rm-zfJ" id="Ehb-VE-ndD"/>
+                        <outlet property="EmailTextField" destination="e49-RQ-t4d" id="uCY-5W-9hq"/>
+                        <outlet property="EnterEmailTextField" destination="e49-RQ-t4d" id="i9d-sW-RAd"/>
+                        <outlet property="EnterPasswordTextField" destination="7s9-Rm-zfJ" id="P3a-px-rA1"/>
+                        <outlet property="PasswordTextField" destination="7s9-Rm-zfJ" id="Ag6-un-TaL"/>
                         <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext" id="bTb-aj-JJl"/>
                     </connections>
                 </viewController>

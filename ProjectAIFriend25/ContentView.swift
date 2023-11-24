@@ -19,8 +19,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
-            Text("This is Sarah!")
-            Text("edit 11/23/23 for Lauren")
+             Text ("")
         
             Button("Click to Start"){
                 

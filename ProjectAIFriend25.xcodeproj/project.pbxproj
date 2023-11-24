@@ -125,8 +125,8 @@
 		998F1F8A2ADC6670004F8F0E /* ProjectAIFriend25 */ = {
 			isa = PBXGroup;
 			children = (
-				998F1F8D2ADC6670004F8F0E /* SceneDelegate.swift */,
 				998F1F8B2ADC6670004F8F0E /* AppDelegate.swift */,
+				998F1F8D2ADC6670004F8F0E /* SceneDelegate.swift */,
 				A62024022B0FD478002BCC6C /* Main.storyboard */,
 				995792FC2B103A0200F2FF42 /* FirstPageViewController.swift */,
 				A62024082B0FF433002BCC6C /* LoginViewController.swift */,

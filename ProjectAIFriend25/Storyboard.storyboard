@@ -12,7 +12,7 @@
         <scene sceneID="Ze1-Vy-H6Z">
             <objects>
                 <viewController id="1kg-PO-sUW" customClass="LoginViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="59N-oz-pAO">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="59N-oz-pAO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -56,7 +56,7 @@
         <scene sceneID="M1Z-1Z-0uJ">
             <objects>
                 <viewController id="zbo-Jw-Z6R" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bp5-wd-t83">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="bp5-wd-t83">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="lXG-t4-pd3"/>
@@ -72,7 +72,7 @@
         <scene sceneID="F5Z-pH-ER9">
             <objects>
                 <viewController id="NDL-eq-t0b" customClass="CreatAccountViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ham-XZ-7IC">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="ham-XZ-7IC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -122,7 +122,7 @@
         <!--Navigation Controller-->
         <scene sceneID="RKE-8M-mDR">
             <objects>
-                <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uqv-DG-w2x" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Gf-d2-cBQ">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
@@ -141,7 +141,7 @@
         <scene sceneID="5RK-F8-urN">
             <objects>
                 <viewController id="Nw3-8l-jVh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vYG-AK-a5x">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="vYG-AK-a5x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -181,7 +181,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WU9-DH-09y"/>
+        <segue reference="bTb-aj-JJl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

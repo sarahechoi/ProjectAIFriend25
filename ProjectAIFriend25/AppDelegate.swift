@@ -10,6 +10,16 @@ import SwiftUI
 import FirebaseCore
 
 @main
+struct ProjectAIFriend25: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    var body: some Scene {
+        WindowGroup {
+            ContentView(body: ContentView.storyboardview())
+        
+        }
+    }
+}
 
 class AppDelegate : NSObject, UIApplicationDelegate {
     
@@ -20,7 +30,7 @@ class AppDelegate : NSObject, UIApplicationDelegate {
     
     // MARK: UISceneSession LIfecycle
     
-    func application(_ application : UIApplication, configurationForConnecting connectingSceneSession : UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+    func application(_ application : UIApplication, configurationConnecting connectingSceneSession : UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }

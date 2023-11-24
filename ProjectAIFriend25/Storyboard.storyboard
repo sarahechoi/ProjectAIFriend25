@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rO-lT-qSw">
@@ -49,7 +49,7 @@
             <objects>
                 <viewController id="1kg-PO-sUW" customClass="LoginViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="59N-oz-pAO">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="88A-kK-q3v">
@@ -81,18 +81,35 @@
                     <connections>
                         <outlet property="emailTextField" destination="88A-kK-q3v" id="k53-bE-nxF"/>
                         <outlet property="passwordTextField" destination="URE-WC-Io1" id="Z3F-jJ-CLN"/>
+                        <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext" id="WU9-DH-09y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rSB-1b-zL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1174.8091603053435" y="-354.22535211267609"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="M1Z-1Z-0uJ">
+            <objects>
+                <viewController id="zbo-Jw-Z6R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bp5-wd-t83">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lXG-t4-pd3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xlK-T4-FSm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V5X-bj-ARJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2036" y="-94"/>
+        </scene>
         <!--Creat Account View Controller-->
         <scene sceneID="F5Z-pH-ER9">
             <objects>
                 <viewController id="NDL-eq-t0b" customClass="CreatAccountViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ham-XZ-7IC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xq1-6h-wjl">
@@ -131,6 +148,7 @@
                         <outlet property="ConfirmPasswordTextField" destination="PHY-En-xBf" id="v3h-V8-Rrc"/>
                         <outlet property="EmailTextField" destination="e49-RQ-t4d" id="ukR-7p-X97"/>
                         <outlet property="PasswordTextField" destination="7s9-Rm-zfJ" id="pEO-bt-aqq"/>
+                        <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext" id="bTb-aj-JJl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T8c-hB-wLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -143,7 +161,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Gf-d2-cBQ">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="50" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -156,6 +174,9 @@
             <point key="canvasLocation" x="-457.25190839694653" y="-46.478873239436624"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="bTb-aj-JJl"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

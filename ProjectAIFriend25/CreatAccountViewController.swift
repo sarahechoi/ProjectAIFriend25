@@ -21,20 +21,41 @@ class CreatAccountViewController: UIViewController {
     @IBAction func SignUpClicked(_ sender: UIButton) {
         guard let email = EmailTextField.text else { return }
         guard let password = PasswordTextField.text else { return }
+        guard let confirm = ConfirmPWTextField.text else { return }
         
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in if error != nil
             {
                     print("error")
                 }
-                else {
-                    
+                Auth.auth().signIn(withCustomToken: confirm)
+                if confirm == password
+                {
+                    self.performSegue(withIdentifier: "goToNext", sender: self)
+                }
+            else {
+    
+                self.performSegue(withIdentifier: "goToNext", sender: self)
+                }
+            }
+        Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in if error != nil
+            {
+            print("error")
+            }
+            else 
+            {
+                Auth.auth().signIn(withCustomToken: confirm)
+                if confirm == password
+                {
                     self.performSegue(withIdentifier: "goToNext", sender: self)
                 }
             }
-        }
-    }
     
-    /*
+   
+
+
+
+
+/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

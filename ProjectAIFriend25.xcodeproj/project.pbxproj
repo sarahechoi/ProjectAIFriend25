@@ -45,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		992221ED2B102FDF00FBDFE2 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		992221EE2B10301900FBDFE2 /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
+		992221EF2B10302900FBDFE2 /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
 		998F1F882ADC6670004F8F0E /* ProjectAIFriend25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAIFriend25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998F1F8B2ADC6670004F8F0E /* ProjectAIFriend25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAIFriend25App.swift; sourceTree = "<group>"; };
 		998F1F8D2ADC6670004F8F0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,9 +97,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		992221EC2B102F8000FBDFE2 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				992221ED2B102FDF00FBDFE2 /* ci_post_clone.sh */,
+				992221EE2B10301900FBDFE2 /* ci_pre_xcodebuild.sh */,
+				992221EF2B10302900FBDFE2 /* ci_post_xcodebuild.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		998F1F7F2ADC6670004F8F0E = {
 			isa = PBXGroup;
 			children = (
+				992221EC2B102F8000FBDFE2 /* ci_scripts */,
 				998F1F8A2ADC6670004F8F0E /* ProjectAIFriend25 */,
 				998F1F892ADC6670004F8F0E /* Products */,
 			);

@@ -17,6 +17,12 @@ class FirstPageViewController: UIViewController {
     }
     
 
+    @IBAction func didTapButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginview = storyboard.instantiateViewController(withIdentifier: "loginview")
+        self.present(loginview, animated: true, completion: nil)
+    }
+
     /*
     // MARK: - Navigation
 

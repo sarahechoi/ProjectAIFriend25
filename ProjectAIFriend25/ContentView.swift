@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIKit
- 
+
 
 struct ContentView: View {
     var body: some View {
@@ -15,6 +15,7 @@ struct ContentView: View {
             .imageScale(.large)
             .foregroundStyle(.tint)
         Text("Hello, world!")
+        
         storyboardview().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }

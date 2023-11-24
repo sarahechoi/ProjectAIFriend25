@@ -82,52 +82,6 @@
             </objects>
             <point key="canvasLocation" x="2036" y="-94"/>
         </scene>
-        <!--Creat Account View Controller-->
-        <scene sceneID="F5Z-pH-ER9">
-            <objects>
-                <viewController storyboardIdentifier="CreateAccountViewController" id="NDL-eq-t0b" customClass="CreatAccountViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="ham-XZ-7IC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xq1-6h-wjl">
-                                <rect key="frame" x="127" y="481" width="165" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Create an Account"/>
-                                <connections>
-                                    <action selector="SignUpClicked:" destination="NDL-eq-t0b" eventType="touchUpInside" id="eH1-io-2qV"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7s9-Rm-zfJ">
-                                <rect key="frame" x="127" y="307" width="136" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e49-RQ-t4d">
-                                <rect key="frame" x="124" y="265" width="142" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="DuP-0x-TGu"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="BsB-OJ-epE"/>
-                    <connections>
-                        <outlet property="EmailTextField" destination="e49-RQ-t4d" id="uCY-5W-9hq"/>
-                        <outlet property="EnterEmailTextField" destination="e49-RQ-t4d" id="i9d-sW-RAd"/>
-                        <outlet property="EnterPasswordTextField" destination="7s9-Rm-zfJ" id="P3a-px-rA1"/>
-                        <outlet property="PasswordTextField" destination="7s9-Rm-zfJ" id="Ag6-un-TaL"/>
-                        <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext" id="bTb-aj-JJl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T8c-hB-wLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1175" y="343"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RKE-8M-mDR">
             <objects>
@@ -182,7 +136,7 @@
                                 <connections>
                                     <action selector="CreateAccount1:" destination="dlM-61-2Z9" eventType="touchUpInside" id="2nD-z9-hW6"/>
                                     <action selector="StartCreateAccount:" destination="dlM-61-2Z9" eventType="touchUpInside" id="e9z-eY-kaT"/>
-                                    <segue destination="NDL-eq-t0b" kind="show" identifier="createaccountpage" id="WKZ-JY-aey"/>
+                                    <segue destination="4YB-Jd-Y2F" kind="show" identifier="accountpage" id="GcZ-QZ-Wbx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -198,11 +152,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Mo-BN-fnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="dlM-61-2Z9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="282.60869565217394" y="-46.205357142857139"/>
+            <point key="canvasLocation" x="358" y="-129"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x7b-n7-Bmw">
+            <objects>
+                <viewController id="4YB-Jd-Y2F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NvN-zr-ehP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mgO-ke-7Pp">
+                                <rect key="frame" x="159" y="299" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="NewEmail:" destination="cb2-Rw-DhL" eventType="editingDidEnd" id="7Vk-ZS-hVK"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1X9-Uj-2lG">
+                                <rect key="frame" x="159" y="362" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="NewPassword:" destination="cb2-Rw-DhL" eventType="editingDidEnd" id="uBo-QJ-VC1"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC1-4b-vkp">
+                                <rect key="frame" x="136" y="470" width="143" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Create Account"/>
+                                <connections>
+                                    <action selector="CreateAccountClicked:" destination="cb2-Rw-DhL" eventType="touchUpInside" id="o0B-Dh-nQE"/>
+                                    <segue destination="zbo-Jw-Z6R" kind="show" identifier="goToNext2" id="9fJ-Rf-MvH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wIH-1F-7cl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E9U-Gf-8UB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KuR-Oy-U1G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="cb2-Rw-DhL" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1139" y="326"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bTb-aj-JJl"/>
+        <segue reference="9fJ-Rf-MvH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

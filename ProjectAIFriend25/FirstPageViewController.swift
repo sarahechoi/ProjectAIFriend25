@@ -10,8 +10,10 @@ import SwiftUI
 
 class FirstPageViewController: UIViewController {
 
-    @IBOutlet weak var btnLogin : UIButton!
-    @IBOutlet weak var btnCreateAccount : UIButton!
+    @IBAction func Login1(_ sender: UIButton) {
+    }
+    @IBAction func CreateAccount1(_ sender: UIButton) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

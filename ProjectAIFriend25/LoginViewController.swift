@@ -7,11 +7,13 @@
 
 import UIKit
 import Firebase
+import SwiftUI
 
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var PasswordTextField: UITextField!
+    @IBOutlet weak var btnLogin : UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

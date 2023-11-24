@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="Ze1-Vy-H6Z">
             <objects>
-                <viewController id="1kg-PO-sUW" customClass="LoginViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="1kg-PO-sUW" customClass="LoginViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="59N-oz-pAO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="2036" y="-94"/>
         </scene>
-        <!--Creat Account View Controller-->
+        <!--Create Account View Controller-->
         <scene sceneID="F5Z-pH-ER9">
             <objects>
-                <viewController id="NDL-eq-t0b" customClass="CreatAccountViewController" customModule="ProjectAIFriend25" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateAccountViewController" id="NDL-eq-t0b" customClass="CreateAccountViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="ham-XZ-7IC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,7 +151,7 @@
         <!--View Controller-->
         <scene sceneID="5RK-F8-urN">
             <objects>
-                <viewController id="Nw3-8l-jVh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstPageViewController" id="Nw3-8l-jVh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="vYG-AK-a5x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,7 +195,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WU9-DH-09y"/>
+        <segue reference="bTb-aj-JJl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

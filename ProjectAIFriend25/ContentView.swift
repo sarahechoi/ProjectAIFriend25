@@ -29,7 +29,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct storyboardview: UIViewControllerRepresentable{
     func makeUIViewController(context: Context) -> UIViewController{
-        let storyboard = UIStoryboard(name:"Storyboard", bundle: Bundle.main )
+        let storyboard = UIStoryboard(name:"Main", bundle: Bundle.main)
         let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
         return controller
     }

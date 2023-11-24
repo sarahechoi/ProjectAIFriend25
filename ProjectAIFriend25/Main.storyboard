@@ -55,8 +55,8 @@
         <!--View Controller-->
         <scene sceneID="M1Z-1Z-0uJ">
             <objects>
-                <viewController id="zbo-Jw-Z6R" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="bp5-wd-t83">
+                <viewController storyboardIdentifier="StoryBoardNavigationController" id="zbo-Jw-Z6R" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StartTest" id="bp5-wd-t83">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -130,7 +130,7 @@
         <!--Navigation Controller-->
         <scene sceneID="RKE-8M-mDR">
             <objects>
-                <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uqv-DG-w2x" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Gf-d2-cBQ">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>

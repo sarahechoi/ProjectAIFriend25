@@ -173,7 +173,7 @@
                                     <action selector="Login:" destination="dlM-61-2Z9" eventType="touchUpInside" id="Tqb-N9-KYx"/>
                                     <action selector="StartLogin:" destination="dlM-61-2Z9" eventType="touchUpInside" id="0zO-C3-Nmy"/>
                                     <action selector="login:" destination="dlM-61-2Z9" eventType="touchUpInside" id="rgy-IT-dBr"/>
-                                    <segue destination="1kg-PO-sUW" kind="show" id="5Pk-D6-Ka7"/>
+                                    <segue destination="1kg-PO-sUW" kind="show" identifier="loginpage" id="5Pk-D6-Ka7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMc-9U-IPC" userLabel="CreateAccount">
@@ -184,7 +184,7 @@
                                 <connections>
                                     <action selector="CreateAccount1:" destination="dlM-61-2Z9" eventType="touchUpInside" id="2nD-z9-hW6"/>
                                     <action selector="StartCreateAccount:" destination="dlM-61-2Z9" eventType="touchUpInside" id="e9z-eY-kaT"/>
-                                    <segue destination="NDL-eq-t0b" kind="show" id="WKZ-JY-aey"/>
+                                    <segue destination="NDL-eq-t0b" kind="show" identifier="createaccountpage" id="WKZ-JY-aey"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -22,17 +22,19 @@ class FirstPageViewController: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func StartLoginAction(_ sender : UIButton){
-        if let nextVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController{
-            navigationController?.pushViewController(nextVC, animated:true)
+        performSegue(withIdentifier: "loginpage", sender: self)
+        
+        //if let nextVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController{
+       //     navigationController?.pushViewController(nextVC, animated:true)
             
         }
-    }
     @IBAction func StartCreateAccountAction(_sender : UIButton){
-        if let next1VC = storyboard?.instantiateViewController(withIdentifier:"CreatAccountViewController") as? CreatAccountViewController{
-            navigationController?.pushViewController(next1VC, animated: true)
+        performSegue(withIdentifier: "createaccountpage", sender: self)
+       // if let next1VC = storyboard?.instantiateViewController(withIdentifier:"CreatAccountViewController") as? CreatAccountViewController{
+          //  navigationController?.pushViewController(next1VC, animated: true)
         }
     }
-    }
+
     
 
    // @IBAction func didTapButton(_ sender: Any) {

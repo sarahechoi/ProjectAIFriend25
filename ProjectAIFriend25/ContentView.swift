@@ -12,7 +12,7 @@ struct ContentView: View {
         
       
         
-        VStack {
+         VStack {
             
             Image(systemName: "globe")
                 .imageScale(.large)

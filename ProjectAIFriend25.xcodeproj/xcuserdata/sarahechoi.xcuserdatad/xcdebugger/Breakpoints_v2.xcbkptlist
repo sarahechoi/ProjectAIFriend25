@@ -64,6 +64,36 @@
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "624">
                </Location>
+               <Location
+                  uuid = "328F46B0-0567-4402-A1C0-A8AE97F4288F - 88c18e90db6a002d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectAIFriend25.ContentView.body.getter : some"
+                  moduleName = "ProjectAIFriend25"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarahechoi/Desktop/ProjectAIFriend25/ProjectAIFriend25/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "328F46B0-0567-4402-A1C0-A8AE97F4288F - 70c6ff65f3cc143d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.foregroundStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ShapeStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Text, SwiftUI.Text, SwiftUI.Button&lt;SwiftUI.Text&gt;)&gt; in ProjectAIFriend25.ContentView.body.getter : some"
+                  moduleName = "ProjectAIFriend25"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarahechoi/Desktop/ProjectAIFriend25/ProjectAIFriend25/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "484">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

@@ -15,9 +15,10 @@ struct ContentView: View {
             .imageScale(.large)
             .foregroundStyle(.tint)
         Text("Hello, world!")
+        ViewMainStoryboard().edgesIgnoringSafeArea(.all);
+
     }
 }
-
 
 
 //        storyboardview().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

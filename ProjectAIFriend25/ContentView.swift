@@ -19,19 +19,18 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
-             Text ("")
         
-            Button("Click to Start"){
-                
+                Button("Click to Start") {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                }
     
             }
             
             
             
         }
-        .padding()
     }
-}
+
 
 #Preview {
     ContentView()

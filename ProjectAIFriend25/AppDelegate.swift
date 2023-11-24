@@ -7,27 +7,22 @@
 
 
 import SwiftUI
+import FirebaseCore
 
 @main
-struct ProjectAIFriend25: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
-    var body: some Scene {
-        WindowGroup {
-            ContentView(body: ContentView.storyboardview())
-        
-        }
-    }
-}
 
 class AppDelegate : NSObject, UIApplicationDelegate {
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions : [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
         return true
     }
     
-    func application(_ application : UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+    // MARK: UISceneSession LIfecycle
+    
+    func application(_ application : UIApplication, configurationForConnecting connectingSceneSession : UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         
-        return UISceneConfiguration(name: "FirstPageViewController", sessionRole: connectingSceneSession.role)
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 }
 

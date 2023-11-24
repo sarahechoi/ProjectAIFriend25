@@ -135,9 +135,12 @@
             <objects>
                 <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Gf-d2-cBQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="9Gf-d2-cBQ">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -176,6 +179,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Login"/>
                                 <connections>
+                                    <action selector="login:" destination="dlM-61-2Z9" eventType="touchUpInside" id="rgy-IT-dBr"/>
                                     <segue destination="1kg-PO-sUW" kind="show" id="5Pk-D6-Ka7"/>
                                 </connections>
                             </button>
@@ -190,6 +194,7 @@
                     <navigationItem key="navigationItem" id="8ob-ng-mMZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Mo-BN-fnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="dlM-61-2Z9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="282.60869565217394" y="-46.205357142857139"/>
         </scene>

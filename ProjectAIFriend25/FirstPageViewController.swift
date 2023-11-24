@@ -19,6 +19,7 @@ class FirstPageViewController: UIViewController {
     @IBAction func Login1BtnAction(_ sender : UIButton){
         if let nextVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController{
             navigationController?.pushViewController(nextVC, animated:true)
+        
             
         }
     }

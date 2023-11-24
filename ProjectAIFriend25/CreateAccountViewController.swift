@@ -27,7 +27,7 @@ class CreatAccountViewController: UIViewController {
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in if error != nil
             {
             print("error")
-        }
+            }
             Auth.auth().signIn(withCustomToken: confirm)
             if confirm == password
             {
@@ -38,18 +38,7 @@ class CreatAccountViewController: UIViewController {
                 self.performSegue(withIdentifier: "goToNext", sender: self)
             }
         }
-        Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in if error != nil
-            {
-            print("error")
-        }
-            else
-            {
-                Auth.auth().signIn(withCustomToken: confirm)
-                if confirm == password
-                {
-                    self.performSegue(withIdentifier: "goToNext", sender: self)
-                }
-            }
+    
             
             
             

@@ -28,7 +28,7 @@ struct ContentView: View {
             }
             
             func makeUIViewController(context: Context) -> UIViewController{
-                let storyboard = UIStoryboard(name:"Storyboard", bundle: Bundle.main)
+                let storyboard = UIStoryboard(name:"Main", bundle: Bundle.main)
                 let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
                 return controller
             }

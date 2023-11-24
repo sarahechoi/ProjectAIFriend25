@@ -6,32 +6,33 @@
 //
 
 import SwiftUI
-import JavaScriptCore
+import UIKit
+ 
 
 struct ContentView: View {
     var body: some View {
-        
-      
-        
-         VStack {
-            
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        
-                Button("Click to Start") {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }
-    
-            }
-            
-            
-            
-        }
+        Image(systemName: "globe")
+            .imageScale(.large)
+            .foregroundStyle(.tint)
+        Text("Hello, world!")
+        storyboardview().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
+}
 
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+        
+    }
+}
 
-#Preview {
-    ContentView()
+struct storyboardview: UIViewControllerRepresentable{
+    func makeUIViewController(context: Context) -> UIViewController{
+        let storyboard = UIStoryboard(name:"Storyboard", bundle: Bundle.main )
+        let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
+        return controller
+    }
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+        
+    }
 }

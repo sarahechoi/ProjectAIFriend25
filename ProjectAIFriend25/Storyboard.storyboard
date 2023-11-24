@@ -122,7 +122,7 @@
         <!--Navigation Controller-->
         <scene sceneID="RKE-8M-mDR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="StoryBoardNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Uqv-DG-w2x" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Gf-d2-cBQ">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
@@ -145,22 +145,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPP-ST-1os">
-                                <rect key="frame" x="174" y="233" width="66" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
-                                <connections>
-                                    <segue destination="1kg-PO-sUW" kind="show" id="5Pk-D6-Ka7"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMc-9U-IPC">
-                                <rect key="frame" x="121" y="346" width="143" height="35"/>
+                                <rect key="frame" x="136" y="568" width="143" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create Account"/>
                                 <connections>
                                     <segue destination="NDL-eq-t0b" kind="show" id="WKZ-JY-aey"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Don't have an account?" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GLJ-VO-9g7">
+                                <rect key="frame" x="122" y="526" width="171" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPP-ST-1os">
+                                <rect key="frame" x="174" y="360" width="66" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                <connections>
+                                    <segue destination="1kg-PO-sUW" kind="show" id="5Pk-D6-Ka7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -171,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Mo-BN-fnZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="-46"/>
+            <point key="canvasLocation" x="282.60869565217394" y="-46.205357142857139"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

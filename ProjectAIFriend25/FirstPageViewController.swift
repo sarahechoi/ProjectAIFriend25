@@ -10,22 +10,24 @@ import SwiftUI
 
 class FirstPageViewController: UIViewController {
 
-    @IBAction func Login1(_ sender: UIButton) {
+
+
+    @IBAction func StartLogin(_ sender: UIButton) {
+        
     }
-    @IBAction func CreateAccount1(_ sender: UIButton) {
+    @IBAction func StartCreateAccount(_ sender: UIButton) {
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func Login1BtnAction(_ sender : UIButton){
+    @IBAction func StartLoginAction(_ sender : UIButton){
         if let nextVC = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController{
             navigationController?.pushViewController(nextVC, animated:true)
-        
             
         }
     }
-    @IBAction func CreatAccountBtnAction(_sender : UIButton){
+    @IBAction func StartCreateAccountAction(_sender : UIButton){
         if let next1VC = storyboard?.instantiateViewController(withIdentifier:"CreatAccountViewController") as? CreatAccountViewController{
             navigationController?.pushViewController(next1VC, animated: true)
         }

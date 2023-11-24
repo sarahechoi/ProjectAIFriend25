@@ -34,7 +34,6 @@ class CreatAccountViewController: UIViewController {
       //          self.performSegue(withIdentifier: "goToNext", sender: self)
      //       }
             else {
-                
                 self.performSegue(withIdentifier: "goToNext", sender: self)
             }
         }

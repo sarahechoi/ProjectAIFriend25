@@ -56,5 +56,4 @@ class CreatAccountViewController: UIViewController {
             
         }
     }
-}
 

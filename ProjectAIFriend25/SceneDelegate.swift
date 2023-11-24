@@ -29,7 +29,7 @@ struct ContentView: View {
             
             func makeUIViewController(context: Context) -> UIViewController{
                 let storyboard = UIStoryboard(name:"Main", bundle: Bundle.main)
-                let controller = storyboard.instantiateViewController(withIdentifier: "StoryBoardNavigationController")
+                let controller = storyboard.instantiateViewController(withIdentifier: "FirstPageViewController")
                 return controller
             }
             //            func updateUIViewController(_ uiViewController: UIViewController, context: Context) {

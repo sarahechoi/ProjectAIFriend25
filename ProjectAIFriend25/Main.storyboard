@@ -155,7 +155,7 @@
         <scene sceneID="5RK-F8-urN">
             <objects>
                 <viewController storyboardIdentifier="FirstPageViewController" id="Nw3-8l-jVh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="StoryBoardNavigationController" id="vYG-AK-a5x">
+                    <view key="view" contentMode="scaleToFill" id="vYG-AK-a5x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
